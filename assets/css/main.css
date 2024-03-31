@@ -1916,15 +1916,21 @@ input, select, textarea {
 	}
 
 		.box.style1 {
-			padding: 3em 2em 3.5em 2em;
+			padding: none;
 		}
 
-			.box.style1 h3 {
-				margin-bottom: 0.5em;
-			}
+		.box.style1 h3 {
+			margin-bottom: 0.5em;
+		}
 
 		.box.style2 h3 {
 			margin-bottom: 0.25em;
+		}
+		
+		.box.style1 img {
+			width: 50%;
+			height: 50%;
+			align-items: center; 
 		}
 
 		.box.style2 .image {
@@ -1934,6 +1940,34 @@ input, select, textarea {
 			margin: -4em 0 4em -4em;
 			width: auto;
 		}
+		
+		.box.style3 {
+		 display: grid;
+		 align-items: center; 
+		 grid-template-columns: 1fr 1fr;
+		 column-gap: 5px;
+		}
+
+		.box.style3 image {
+        flex: 1;
+        overflow: hidden;
+		}
+
+		.box.style3 img {
+			width: 100%;
+			height: auto;
+			display: block;
+		}
+
+		.box.style3 text {
+			flex: 1;
+			padding: 20px;
+		}
+		.box.style3.text h3,p {
+			margin: 0;
+		}
+
+		
 
 /* Icons */
 
@@ -2550,3 +2584,36 @@ input, select, textarea {
 					}
 
 	}
+	
+	
+	.btn {
+	  border: none;
+	  color: white;
+	  padding: 12px 30px;
+	  cursor: pointer;
+	  font-size: 15px;
+	  position: fixed;
+      top: 10px;
+      right: 10px;
+	  animation: pulse 1s infinite alternate;
+	}
+
+	/* Darker background on mouse-over */
+	.btn:hover {
+	  background-color: RoyalBlue;
+	}
+	
+	@keyframes pulse {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.1);
+        }
+    }
+	
+	
+	#top {
+       background-image: url("images/background.jpg"); 
+	  background-size: cover;
+    }
