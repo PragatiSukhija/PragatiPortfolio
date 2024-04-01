@@ -2603,8 +2603,8 @@ input, select, textarea {
 	
 	
 	#top {
-       background-image: url("images/background.PNG"); 
-	  background-size: cover;
+       /*background-image: url("images/background.PNG"); 
+	  background-size: cover;*/
     }
 	
 .animated-text{
