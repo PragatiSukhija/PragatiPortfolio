@@ -2614,6 +2614,6 @@ input, select, textarea {
 	
 	
 	#top {
-       background-image: url("images/background.jpg"); 
-	  background-size: cover;
+       /*background-image: url("images/background.jpg"); 
+	  background-size: cover;*/
     }
