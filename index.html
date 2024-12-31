@@ -41,7 +41,9 @@
 							<header>
 								<h1>Hi, I'm <strong>Pragati Sukhija</strong>.</h1>
 							</header>
-							<p style="font-size: medium; text-align: justify;">Welcome to my portfolio! I am a passionate software developer currently pursuing <strong>Masters in Computer Science</strong>. With 5 years of hands-on experience, I specialize in both back-end technologies such as <strong>Java, Python, Rest APIs, and C++</strong>, as well as front-end technologies like <strong>React, HTML, CSS, and js</strong>. My proficiency extends to database management, encompassing <strong>SQL and NoSQL (MongoDB)</strong>. My areas of interest are <strong>Software Development, Artificial Intelligence(AI), Machine Learning(ML), and Data Analysis</strong>. I consistently give my best effort in every role I undertake. As a result of my exceptional performance, I received a promotion each year during my tenure at Morgan Stanley. Beyond coding, I'm an easy-to-talk-to individual who loves making new connections. I enjoy engaging in sports like chess, pool, and badminton, and during downtime, you'll find me listening to music, or experimenting with cooking. Known for my positive and collaborative approach, I bring a sense of fun to the teams I work with. Let's connect and create something extraordinary!</p>	
+							<p style="font-size: medium; text-align: justify;">Welcome to my portfolio! I’m a software developer with <strong>5 years</strong> of experience and a love for solving puzzles. I have a Master’s degree in Computer Science from the University of California, Riverside, and a Bachelor’s in Computer Engineering from V.J.T.I., University of Mumbai.
+
+Over the years, I’ve worked on everything from front-end and back-end development to cloud infrastructure. While <strong>Java</strong> is my favorite language, I also enjoy working with <Strong>Python, C, C++, and Rust</strong>. I have hands-on experience with cloud platforms like <strong>GCP and AWS</strong>. I’ve taken on different roles throughout my career, from being an individual contributor to leading projects. During my time at Morgan Stanley, I was proud to earn a promotion every year, due to significant impact I made. My interests lie in <strong>Software Development, Artificial Intelligence (AI), Machine Learning (ML), and Data Analysis</strong>, and I’m always eager to dive into exciting new challenges in these fields. Outside of work, I love meeting new people and exchanging ideas. If you’re looking to collaborate or just want to connect, feel free to reach out. Let’s build something amazing together!</p>	
 							
 						</div>
 					</div>
@@ -266,7 +268,7 @@
 								<div class="text">
 									<h3>University of California, Riverside</h3>
 									<p>Master's, Computer Science<br>September 2023 - December 2024</p>
-									<p><a href="https://drive.google.com/file/d/1yRigDH1iWEtCoJ4HTJJKbIZ_NXFATCnP/view?usp=sharing">View Transcripts</a></p>
+									<p><a href="https://drive.google.com/file/d/1b-6QE_oSjxlYBudFuevaogui5uuUuSDn/view?usp=sharing">View Transcripts</a></p>
 									
 								</div>
 							</article>
@@ -294,10 +296,44 @@
 			<article id="projects" class="wrapper style3">
 				<div class="container">
 					<header>
-						<h2>Here are some of my academic projects.</h2>
+						<h2>Here are some of my personal and academic projects.</h2>
+						<h5>Click on each tile to learn more</h5>
 						<p></p>
 					</header>
 					<div class="row">
+						<div class="col-4 col-6-medium col-12-small">
+							<article class="box style2" onclick="toggleDetails('nullaway')">
+								<a class="image featured"><img src="images/nullaway.jpg" alt="" /></a>
+								<h3><a>Software Testing</a></h3>
+								<p>Online Java Sandbox for NulLAway</p>
+							</article>
+						</div>
+						
+						<!-- Additional details box -->
+						<div id="nullaway" class="details-box">
+							<div class="overlay" onclick="toggleDetails('nullaway')"></div>
+							<div class="center-box">
+								<span class="close-button" onclick="toggleDetails('nullaway')"><strong>X</strong></span>
+								<!-- Add your additional details content here -->
+								<div class="details-section">
+									<h3>Descripton</h3>
+									<p style="font-size: medium; text-align: justify;">I created an online Java sandbox website that lets users seamlessly run NullAway (an open-source tool by Uber) on their Java code. The platform also integrates NullAway Annotator to automatically add annotations, streamlining the process of improving code null safety.</p>
+								</div>
+
+								<div class="details-section">
+									<h3>Where is the project available for viewing?</h3>
+									<p style="font-size: medium; text-align: justify;"><a href="https://github.com/ucr-riple/NullAway-Sandbox">Source Code</a></p>
+									<p><a href="http://34.31.182.30:5000/?release=22">Give the tool a try here!</a></p>
+								</div>
+
+								<div class="details-section">
+									<h3>Technology Stack</h3>
+									<p style="font-size: medium; text-align: justify;">React, Rust, Java, Docker, GCP</p>
+								</div>
+
+							</div>
+						</div>
+						
 						<div class="col-4 col-6-medium col-12-small">
 							<article class="box style2" onclick="toggleDetails('crimedatanalysis')">
 								<a class="image featured"><img src="images/spatial.jpg" alt="" /></a>
@@ -305,6 +341,7 @@
 								<p>Crime Data Analysis</p>
 							</article>
 						</div>
+						
 						<!-- Additional details box -->
 						<div id="crimedatanalysis" class="details-box">
 							<div class="overlay" onclick="toggleDetails('crimedatanalysis')"></div>
@@ -391,13 +428,7 @@
 							</div>
 						</div>
 
-						<div class="col-4 col-6-medium col-12-small">
-							<article class="box style2" onclick="toggleDetails('hackathon')">
-								<a class="image featured"><img src="images/genAI.jpg" alt="" /></a>
-								<h3><a>Generative AI</a></h3>
-								<p>Automated Code Tester</p>
-							</article>
-						</div>
+					
 
 						<!-- Additional details box -->
 						<div id="hackathon" class="details-box">
@@ -500,7 +531,7 @@
 				<div class="container medium">
 					<header>
 						<h2>Let's get in touch!</h2>
-						<p>If you're interested in collaboration or have feedback on my portfolio, feel free to reach out to me. </p><br /><br />
+						<p>If you’re looking for someone with my expertise or just want to connect, feel free to reach out to me. </p><br /><br />
 						
 						<ul class="social">
 							<li>
